@@ -92,33 +92,6 @@ streamlit run material_complexity_app.py
 
 ## 📚 더 알아보기
 
-### 주요 연구 논문
-
-**프랙탈과 시각 선호**
-
-[1] Spehar, B., Clifford, C. W., Newell, B. R., & Taylor, R. P. (2003). Universal aesthetic of fractals. *Computers & Graphics*, 27(5), 813-820.
-
-[2] Taylor, R. P., Spehar, B., Van Donkelaar, P., & Hagerhall, C. M. (2011). Perceptual and physiological responses to Jackson Pollock's fractals. *Frontiers in Human Neuroscience*, 5, 60.
-
-[3] Forsythe, A., Nadal, M., Sheehy, N., Cela-Conde, C. J., & Sawey, M. (2011). Predicting beauty: Fractal dimension and visual complexity in art. *British Journal of Psychology*, 102(1), 49-70.
-
-**생리적 반응**
-
-[4] Hägerhäll, C. M., Laike, T., Küller, M., Marcheschi, E., Boydston, C., & Taylor, R. P. (2015). Human physiological benefits of viewing nature: EEG responses to exact and statistical fractal patterns. *Nonlinear Dynamics, Psychology, and Life Sciences*, 19(1), 1-12.
-
-[5] Hagerhall, C. M., Purcell, T., & Taylor, R. (2004). Fractal dimension of landscape silhouette outlines as a predictor of landscape preference. *Journal of Environmental Psychology*, 24(2), 247-255.
-
-**Fractal Fluency Theory**
-
-[6] Taylor, R. P., & Spehar, B. (2016). Fractal fluency: An intimate relationship between the brain and processing of fractal stimuli. In *The Fractal Geometry of the Brain* (pp. 485-496). Springer.
-
-[7] Aks, D. J., & Sprott, J. C. (1996). Quantifying aesthetic preference for chaotic patterns. *Empirical Studies of the Arts*, 14(1), 1-16.
-
-**인지적 회복**
-
-[8] Kaplan, R., & Kaplan, S. (1989). *The experience of nature: A psychological perspective*. Cambridge University Press.
-
----
 
 ## 🔬 측정 방법
 
@@ -224,6 +197,34 @@ streamlit run material_complexity_app.py
 ```
 
 ---
+### 주요 연구 논문
+
+**프랙탈과 시각 선호**
+
+[1] Spehar, B., Clifford, C. W., Newell, B. R., & Taylor, R. P. (2003). Universal aesthetic of fractals. *Computers & Graphics*, 27(5), 813-820.
+
+[2] Taylor, R. P., Spehar, B., Van Donkelaar, P., & Hagerhall, C. M. (2011). Perceptual and physiological responses to Jackson Pollock's fractals. *Frontiers in Human Neuroscience*, 5, 60.
+
+[3] Forsythe, A., Nadal, M., Sheehy, N., Cela-Conde, C. J., & Sawey, M. (2011). Predicting beauty: Fractal dimension and visual complexity in art. *British Journal of Psychology*, 102(1), 49-70.
+
+**생리적 반응**
+
+[4] Hägerhäll, C. M., Laike, T., Küller, M., Marcheschi, E., Boydston, C., & Taylor, R. P. (2015). Human physiological benefits of viewing nature: EEG responses to exact and statistical fractal patterns. *Nonlinear Dynamics, Psychology, and Life Sciences*, 19(1), 1-12.
+
+[5] Hagerhall, C. M., Purcell, T., & Taylor, R. (2004). Fractal dimension of landscape silhouette outlines as a predictor of landscape preference. *Journal of Environmental Psychology*, 24(2), 247-255.
+
+**Fractal Fluency Theory**
+
+[6] Taylor, R. P., & Spehar, B. (2016). Fractal fluency: An intimate relationship between the brain and processing of fractal stimuli. In *The Fractal Geometry of the Brain* (pp. 485-496). Springer.
+
+[7] Aks, D. J., & Sprott, J. C. (1996). Quantifying aesthetic preference for chaotic patterns. *Empirical Studies of the Arts*, 14(1), 1-16.
+
+**인지적 회복**
+
+[8] Kaplan, R., & Kaplan, S. (1989). *The experience of nature: A psychological perspective*. Cambridge University Press.
+
+---
+
 
 ## 📊 성능
 
