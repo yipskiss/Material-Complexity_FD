@@ -78,19 +78,6 @@ pip install -r requirements.txt
 # 실행
 streamlit run material_complexity_app.py
 ```
-
-브라우저가 자동으로 열립니다 (http://localhost:8501)
-
-### Streamlit Cloud 배포
-
-1. GitHub 저장소 생성 및 푸시
-2. https://streamlit.io/cloud 접속
-3. "New app" → GitHub 저장소 연결
-4. `material_complexity_app.py` 선택
-5. Deploy!
-
-배포 후 링크를 공유하면 누구나 사용 가능합니다.
-
 ---
 
 ## 📖 사용 방법
@@ -104,13 +91,6 @@ streamlit run material_complexity_app.py
 ---
 
 ## 📚 더 알아보기
-
-### Fractal Dimension 기초
-
-- [Wikipedia - Fractal Dimension](https://en.wikipedia.org/wiki/Fractal_dimension)
-- [Wolfram MathWorld - Fractal Dimension](https://mathworld.wolfram.com/FractalDimension.html)
-- [Box-Counting Method](https://en.wikipedia.org/wiki/Minkowski%E2%80%93Bouligand_dimension)
-- [Lacunarity](https://en.wikipedia.org/wiki/Lacunarity)
 
 ### 주요 연구 논문
 
@@ -201,33 +181,18 @@ R² ≥ 0.95이면 매우 신뢰할 만한 측정입니다.
 
 ---
 
-## 📋 Requirements
-
-```
-streamlit>=1.28.0
-numpy>=1.24.0
-opencv-python-headless>=4.8.0
-Pillow>=10.0.0
-pandas>=2.0.0
-```
-
-💡 **중요**: Streamlit Cloud 배포 시 `opencv-python-headless`를 사용하세요 (GUI 불필요)
-
----
-
 ## ❓ FAQ
 
 **Q: FD 값이 높을수록 좋은가요?**  
 A: 아니요. FD 1.2~1.7이 선호 범위입니다. 너무 낮으면 단조롭고, 너무 높으면 복잡합니다.
+(단 이것은 선행 연구의 결과이므로 크게 신경쓰지 않으셔도 됩니다.)
 
 **Q: R² (신뢰도)가 낮으면 어떻게 하나요?**  
 A: R² < 0.9이면 이미지가 프랙탈 특성이 약하거나 너무 단순할 수 있습니다. 다른 이미지로 테스트하거나, 결과 해석 시 주의하세요.
 
-**Q: 어떤 FD 값을 선택해야 하나요?**  
-A: 편안한 공간은 FD 1.3~1.5, 흥미로운 공간은 FD 1.5~1.7을 추천합니다.
-
 **Q: L 값은 무엇을 의미하나요?**  
 A: 패턴이 얼마나 균일하게/불규칙하게 배치되어 있는지를 나타냅니다.
+(보통 프랙탈 차원값이 비슷하게 나왔을 때, 보조 지표로 활용합니다.)
 
 **Q: 계산이 오래 걸리나요?**  
 A: Numpy 벡터화 최적화로 0.5~1초 내에 완료됩니다.
@@ -270,24 +235,11 @@ streamlit run material_complexity_app.py
 
 ---
 
-## 📞 문의
+## 문의
 
-- **Email**: your.email@example.com
-- **GitHub**: [@your-username](https://github.com/your-username)
+- **Email**: thisishong@hanyang.ac.kr
+- **GitHub**: [@yipskiss77](https://github.com/your-username)
 
----
-
-## 📄 라이선스
-
-MIT License - 자유롭게 사용, 수정, 배포 가능
-
----
-
-## 🙏 감사
-
-- **Richard P. Taylor**: Fractal Fluency Theory
-- **Caroline M. Hagerhall**: EEG Studies on Fractals
-- **Branka Spehar**: Universal Aesthetics Research
 
 ---
 
